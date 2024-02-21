@@ -127,7 +127,7 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 650px; 
+    gap: 350px; 
     padding: 10px; 
     border-radius: 20px; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
