@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+    <title>Music Player - Spotify</title>
+    <link rel="stylesheet" href="mandraka.css">
+    <script src="https://kit.fontawesome.com/6f988da3a0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="closeButton"></div>
+    <!--O que está tocando?-->
+    <div id="superior">
+        <div class="imagem">
+            <img src="/img/greylogo.png" alt="">
+        </div>
+        <div class="texto">
+            <h2>TOCANDO DE ÁLBUM</h2>
+            <p>Dos Prédios</p>
+        </div>
+    </div>
+
+    <!--Título da música e album-->
+    <div id="inferior">
+        <img src="/img/veighalbum.jpg" alt="" class="album">
+        <div class="texto">
+            <h2>Mandraka</h2>
+            <p>Veigh</p>
+        </div>
+    </div>
+
+    <!--Player de Música-->
+    <div id="all">
+        <span id="musicName"></span>
+        <audio id="player" src=""></audio>
+
+        <div class="controls">
+            <div class="like">
+                <i id="heartIcon" class="far fa-heart"></i>
+            </div>
+            <div class="play-pause">
+                <i id="playPauseIcon" class="fas fa-play"></i>
+            </div>
+            <div class="volume">
+                <i class="fas fa-volume-down"></i>
+                <div class="volume-bar">
+                    <div class="volume-progress green-volume-progress"></div>
+                </div>
+            </div>
+        </div>
+        
+    
+        <div class="footer">
+            <span id="currentTime">0:00</span>
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+            <span id="duration">0:00</span>
+        </div>
+    </div>
+    
+
+
+    <!--arquivo javascript-->
+    <script type="module" src="/content/music.js"></script>
+    <script type="module" src="/content/mandraka/player.js"></script>
+</body>
+
+</html>
