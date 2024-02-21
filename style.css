@@ -7,6 +7,11 @@
 body {
     font-family: "Roboto", sans-serif;
 }
+
+li a {
+ color: inherit;
+}
+
 /* utility classes */
 .btn-primary {
     background: #1DB954;

@@ -1,0 +1,263 @@
+* {
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    background: rgba(0,0,0,0.4) url('/img/kdacapa.jpg') center center/cover no-repeat fixed;
+}
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+#superior {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  #superior .imagem {
+    width: 65px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    padding-left: 120px;
+  }
+  
+
+#superior .texto {
+    align-content: flex-start;
+    padding: 10px;
+    padding-top: 20px;
+    flex-direction: column;
+    font-family: "Inter", sans-serif;
+    color: grey;
+  }
+
+#superior .texto p {
+  margin-top: -15px;
+  align-items: flex-start;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#superior .texto h2 {
+    align-items: flex-start;
+    margin-left: -1px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+#inferior {
+    position: fixed;
+    bottom: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+#inferior .album {
+    width: 160px;
+    height: 160px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left:120px;
+}
+
+#inferior .texto h2 {
+    align-items: flex-start;
+    font-size: 50px;
+    font-weight: 100;
+    color: white;
+    font-family: "Inter", sans-serif;
+    padding-left: 40px;
+}
+
+#inferior .texto p {
+    align-items: flex-start;
+    font-size: 20px;
+    color: #C0C0C0;
+    font-family: "Inter", sans-serif;
+    padding-left: 40px;
+    margin-top: -30px;
+}
+
+@keyframes fadeAndShrink {
+    0% {
+        opacity: 0;
+        transform: scale(4) translateY(50%);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+#inferior .album {
+    width: 160px;
+    height: 160px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 50px;
+    animation: fadeAndShrink 1.5s ease-in-out normal;
+    position: relative;
+    overflow: hidden; 
+}
+
+.controls {
+    position: fixed;
+    bottom: 40px;
+    left: 50%; 
+    transform: translateX(-50%); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 350px; 
+    padding: 10px; 
+    border-radius: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+
+.play-pause {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 40px; 
+    height: 40px;    
+    border-radius: 50%;
+    font-size: 30px;
+    color: black;
+    transition: all 0.2s;
+    padding: 12px;
+    background-color: #ddd;
+}
+
+
+.play-pause:hover {
+    color: black;
+    transform: scale(1.1);
+    background-color: #999;
+}
+
+
+.like {
+    font-size: 30px;
+    color: #999;
+    transition: all 0.2s;
+}
+
+.green-heart {
+    color: #1DB954;
+}
+
+.like:hover {
+    color: #ddd;
+    transform: scale(1.1);
+}
+
+
+
+.volume {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    color: #999;
+    transition: all 0.2s;
+}
+
+
+.volume:hover {
+    color: #ddd;
+    transform: scale(1.1);
+}
+
+.volume-bar {
+    width: 100px; 
+    height: 8px;
+    background-color: #ddd; 
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px; 
+}
+
+.volume-progress {
+    height: 100%;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+
+
+
+.footer {
+    position: fixed;
+    bottom: 150px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 70%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin-top: 20px; 
+}
+
+
+.progress-bar {
+    width: calc(100% - 200px); 
+    height: 8px;
+    background-color: #ddd;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.progress {
+    height: 8px;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+
+.time {
+    display: flex;
+    align-items: center;
+}
+
+#currentTime,
+#duration {
+    font-size: 22px;
+    color: white;
+    margin: 0 10px; 
+}
+
+.green-progress {
+    background-color: #1DB954;
+}
+
+.container {
+    transition: opacity 1s ease;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.green-volume-progress{
+    color: #1DB954;
+}
