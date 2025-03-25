@@ -7,14 +7,11 @@
 body {
     font-family: "Roboto", sans-serif;
 }
-<<<<<<< HEAD
 
 li a {
  color: inherit;
 }
 
-=======
->>>>>>> 8e12c18 (spotify)
 /* utility classes */
 .btn-primary {
     background: #1DB954;

@@ -1,9 +1,6 @@
 var botaoRedirecionar = document.getElementById('button');
-
-botaoRedirecionar.addEventListener('click', function() {
-<<<<<<< HEAD
-    window.location.href = 'content/listen.html';
-=======
-    window.location.href = 'listen.html';
->>>>>>> 8e12c18 (spotify)
-});
+ 
+ botaoRedirecionar.addEventListener('click', function() {
+     window.location.href = 'listen.html';
+     window.location.href = 'content/listen.html';
+ });
