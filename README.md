@@ -3,6 +3,9 @@
 <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Spotify_icon.svg" alt="Spotify Logo" width="100"/>
 
 Este é um **clone do Spotify** desenvolvido com **HTML, CSS e JavaScript**. O projeto permite ao usuário interagir com a interface, escolher músicas e utilizar um player de música funcional, tudo feito **100% por mim, sem utilização de cursos**.
+O projeto não está totalmente responsivo. Pode apresentar algum tipo de problema em certas interfaces. 
+
+Aproveite porque há um tipo de música para todos os gostos! 🎵
 
 ---
 
