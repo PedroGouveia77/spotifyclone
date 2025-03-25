@@ -256,3 +256,21 @@ body {
     border-radius: 40px;
     cursor: pointer;
 }
+
+.arrow {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #ffffff; /* Cor da seta */
+    z-index: 9999; /* Certifique-se de que a seta esteja acima de outros elementos */
+    cursor: pointer; /* Adicionei um cursor para indicar que a seta é clicável */
+    display: none; /* Inicialmente, a seta está invisível */
+}
+
+.arrow.active {
+    display: block; /* Torna a seta visível quando está ativa */
+}

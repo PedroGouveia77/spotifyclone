@@ -32,4 +32,7 @@ export default [
     {
         src: "/msc/arana.mp3",
     },
+    {
+        src: "/msc/kda.mp3",
+    },
 ];
