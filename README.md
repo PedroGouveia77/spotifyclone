@@ -41,3 +41,4 @@ Se quiser sugerir melhorias, fique à vontade! 🎶🚀
 
 ---
 👨‍💻 Desenvolvido por: Pedro Henrique Gouveia de Miranda Couto
+- [GitHub](https://github.com/PedroGouveia77) | [LinkedIn](https://www.linkedin.com/in/pedro-henrique-gouveia-590097257/)
