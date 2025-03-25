@@ -32,7 +32,10 @@ export default [
     {
         src: "/msc/arana.mp3",
     },
+<<<<<<< HEAD
     {
         src: "/msc/kda.mp3",
     },
+=======
+>>>>>>> 8e12c18 (spotify)
 ];

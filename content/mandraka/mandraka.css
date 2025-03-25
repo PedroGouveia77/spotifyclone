@@ -5,7 +5,7 @@
 body {
     font-family: "Roboto", sans-serif;
     position: relative;
-    background: rgba(0,0,0,0.4) url('/img/anacastelafundo.jpg') center center/cover no-repeat fixed;
+    background: rgba(0,0,0,0.4) url('/img/veigh.jpg') center center/cover no-repeat fixed;
 }
 body::before {
     content: "";
@@ -127,20 +127,12 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
-<<<<<<< HEAD
-    gap: 350px; 
-=======
     gap: 650px; 
->>>>>>> 8e12c18 (spotify)
     padding: 10px; 
     border-radius: 20px; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 8e12c18 (spotify)
 .play-pause {
     display: flex; 
     justify-content: center; 

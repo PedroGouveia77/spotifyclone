@@ -4,6 +4,8 @@
 
 Este é um **clone do Spotify** desenvolvido com **HTML, CSS e JavaScript**. O projeto permite ao usuário interagir com a interface, escolher músicas e utilizar um player de música funcional, tudo feito **100% por mim, sem utilização de cursos**.
 
+Você pode também visualizar o projeto pronto que está disponivel via Vercel: https://spotifyclones.vercel.app
+
 O projeto não está totalmente responsivo. Pode apresentar algum tipo de problema em certas interfaces. 
 
 Aproveite porque há um tipo de música para todos os gostos! 🎵
@@ -13,7 +15,7 @@ Aproveite porque há um tipo de música para todos os gostos! 🎵
 ## 🚀 Funcionalidades  
 
 ✅ Interface inspirada no Spotify  
-✅ Botões totalmente clicáveis  
+✅ Botões clicáveis  
 ✅ Escolha de músicas diretamente na tela  
 ✅ Player de música funcional desenvolvido em **JavaScript**  
 

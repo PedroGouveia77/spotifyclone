@@ -255,6 +255,7 @@ body {
     border: 0px;
     border-radius: 40px;
     cursor: pointer;
+<<<<<<< HEAD
 }
 
 .arrow {
@@ -273,4 +274,6 @@ body {
 
 .arrow.active {
     display: block; /* Torna a seta visível quando está ativa */
+=======
+>>>>>>> 8e12c18 (spotify)
 }
